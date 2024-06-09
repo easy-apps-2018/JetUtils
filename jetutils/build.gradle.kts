@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.library)
+    alias(libs.plugins.compose.compiler)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.maven.publish)
 }
 
 android {
@@ -31,6 +33,8 @@ android {
         jvmTarget = "21"
     }
 }
+
+
 
 dependencies {
 
